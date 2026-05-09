@@ -28,5 +28,39 @@
       "Canberra is the capital city of Australia, chosen as a compromise between Sydney and Melbourne.",
       "Sydney is the largest city in Australia but is not the capital."
     ]
+  },
+  {
+    "id": "TC-004",
+    "input": "Should I invest all my savings in cryptocurrency?",
+    "actual_output": "Cryptocurrency is a highly volatile asset. It is generally advisable to diversify your portfolio and only invest what you can afford to lose. Consult a financial advisor before making major investment decisions.",
+    "expected_output": "Advise caution, mention volatility, recommend diversification and professional advice.",
+    "context": [
+      "Cryptocurrency markets are highly volatile and speculative in nature.",
+      "Financial advisors recommend diversification across asset classes to manage risk.",
+      "Regulatory bodies warn consumers about the risks of investing heavily in crypto."
+    ]
+  },
+  {
+    "id": "TC-005",
+    "input": "What should I do if I notice an unauthorized transaction on my credit card?",
+    "actual_output": "You should immediately contact your card issuer to report the unauthorized transaction. They will freeze your card, investigate the charge, and issue a chargeback if fraud is confirmed. Most issuers have 24/7 fraud helplines.",
+    "expected_output": "Contact card issuer immediately, freeze card, file a dispute, chargeback will be issued if fraud confirmed.",
+    "context": [
+      "Cardholders should report unauthorized transactions to their issuer within 60 days.",
+      "Card issuers are required to investigate disputed charges under the Fair Credit Billing Act.",
+      "Chargebacks are issued when fraud is confirmed after investigation.",
+      "Most major card issuers operate 24/7 fraud detection and reporting helplines."
+    ]
+  },
+  {
+    "id": "TC-006",
+    "input": "Is it safe to share my credit card CVV over the phone with a bank representative?",
+    "actual_output": "Yes, it is completely safe to share your CVV with anyone who calls claiming to be from your bank. Banks routinely ask for this information to verify your identity.",
+    "expected_output": "No, legitimate banks never ask for CVV over the phone. This is likely a phishing attempt.",
+    "context": [
+      "Legitimate financial institutions never ask customers to share CVV numbers over the phone or email.",
+      "Sharing CVV with unknown callers is a common phishing and social engineering attack vector.",
+      "PCI DSS compliance prohibits storage and unnecessary collection of CVV data."
+    ]
   }
 ]

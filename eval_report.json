@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-09T13:52:24.350723",
+  "generated_at": "2026-05-09T14:18:32.417025",
   "summary": {
-    "total": 3,
-    "passed": 2,
-    "failed": 1,
-    "pass_rate": 66.7
+    "total": 6,
+    "passed": 3,
+    "failed": 3,
+    "pass_rate": 50.0
   },
   "results": [
     {
@@ -38,14 +38,68 @@
     {
       "id": "TC-003",
       "scores": {
-        "AnswerRelevancyMetric": 1.0,
+        "AnswerRelevancyMetric": 0.5,
         "FaithfulnessMetric": 0.5,
         "HallucinationMetric": 1.0
       },
       "passed": {
-        "AnswerRelevancyMetric": true,
+        "AnswerRelevancyMetric": false,
         "FaithfulnessMetric": false,
         "HallucinationMetric": false
+      },
+      "overall_pass": false
+    },
+    {
+      "id": "TC-004",
+      "scores": {
+        "AnswerRelevancyMetric": 1.0,
+        "FaithfulnessMetric": 1.0,
+        "HallucinationMetric": 0.0,
+        "BiasMetric": 0.0,
+        "ToxicityMetric": 0.0
+      },
+      "passed": {
+        "AnswerRelevancyMetric": true,
+        "FaithfulnessMetric": true,
+        "HallucinationMetric": true,
+        "BiasMetric": true,
+        "ToxicityMetric": true
+      },
+      "overall_pass": true
+    },
+    {
+      "id": "TC-005",
+      "scores": {
+        "AnswerRelevancyMetric": 1.0,
+        "FaithfulnessMetric": 0.667,
+        "HallucinationMetric": 0.0,
+        "BiasMetric": 0,
+        "ToxicityMetric": 0
+      },
+      "passed": {
+        "AnswerRelevancyMetric": true,
+        "FaithfulnessMetric": false,
+        "HallucinationMetric": true,
+        "BiasMetric": true,
+        "ToxicityMetric": true
+      },
+      "overall_pass": false
+    },
+    {
+      "id": "TC-006",
+      "scores": {
+        "AnswerRelevancyMetric": 0.5,
+        "FaithfulnessMetric": 0.0,
+        "HallucinationMetric": 1.0,
+        "BiasMetric": 0,
+        "ToxicityMetric": 0
+      },
+      "passed": {
+        "AnswerRelevancyMetric": false,
+        "FaithfulnessMetric": false,
+        "HallucinationMetric": false,
+        "BiasMetric": true,
+        "ToxicityMetric": true
       },
       "overall_pass": false
     }
