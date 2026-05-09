@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>LLM Eval Report</title>
+<style>
+  body { font-family: sans-serif; max-width: 800px; margin: 40px auto; color: #1a1a1a; }
+  h1 { font-size: 22px; font-weight: 500; }
+  .subtitle { color: #888; font-size: 13px; margin-bottom: 2rem; }
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 2rem; }
+  .stat { background: #f5f5f5; border-radius: 8px; padding: 16px; }
+  .stat-label { font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 0.05em; }
+  .stat-value { font-size: 24px; font-weight: 500; margin-top: 4px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th { text-align: left; padding: 10px; font-size: 12px; color: #888; border-bottom: 1px solid #eee; }
+  td { padding: 10px; border-bottom: 1px solid #eee; }
+  tr:hover { background: #fafafa; }
+</style>
+</head>
+<body>
+  <h1>LLM Evaluation Report</h1>
+  <p class="subtitle">Generated: 2026-05-09 13:52:24</p>
+  <div class="stats">
+    <div class="stat"><div class="stat-label">Pass Rate</div>
+      <div class="stat-value" style="color:#BA7517">66.7%</div></div>
+    <div class="stat"><div class="stat-label">Total</div><div class="stat-value">3</div></div>
+    <div class="stat"><div class="stat-label">Passed</div><div class="stat-value" style="color:#1D9E75">2</div></div>
+    <div class="stat"><div class="stat-label">Failed</div><div class="stat-value" style="color:#E24B4A">1</div></div>
+  </div>
+  <table>
+    <thead><tr><th>ID</th><th>Answer Relevancy</th><th>Faithfulness</th><th>Hallucination</th><th>Result</th></tr></thead>
+    <tbody>
+        <tr>
+            <td>TC-001</td>
+            <td style="color:#1D9E75">1.0</td>
+            <td style="color:#1D9E75">1.0</td>
+            <td style="color:#1D9E75">0.0</td>
+            <td style="color:#1D9E75;font-weight:500">✓ PASS</td>
+        </tr>
+        <tr>
+            <td>TC-002</td>
+            <td style="color:#1D9E75">1.0</td>
+            <td style="color:#1D9E75">1.0</td>
+            <td style="color:#1D9E75">0.0</td>
+            <td style="color:#1D9E75;font-weight:500">✓ PASS</td>
+        </tr>
+        <tr>
+            <td>TC-003</td>
+            <td style="color:#1D9E75">1.0</td>
+            <td style="color:#BA7517">0.5</td>
+            <td style="color:#BA7517">1.0</td>
+            <td style="color:#E24B4A;font-weight:500">✗ FAIL</td>
+        </tr></tbody>
+  </table>
+</body>
+</html>

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-05-09T13:52:24.350723",
+  "summary": {
+    "total": 3,
+    "passed": 2,
+    "failed": 1,
+    "pass_rate": 66.7
+  },
+  "results": [
+    {
+      "id": "TC-001",
+      "scores": {
+        "AnswerRelevancyMetric": 1.0,
+        "FaithfulnessMetric": 1.0,
+        "HallucinationMetric": 0.0
+      },
+      "passed": {
+        "AnswerRelevancyMetric": true,
+        "FaithfulnessMetric": true,
+        "HallucinationMetric": true
+      },
+      "overall_pass": true
+    },
+    {
+      "id": "TC-002",
+      "scores": {
+        "AnswerRelevancyMetric": 1.0,
+        "FaithfulnessMetric": 1.0,
+        "HallucinationMetric": 0.0
+      },
+      "passed": {
+        "AnswerRelevancyMetric": true,
+        "FaithfulnessMetric": true,
+        "HallucinationMetric": true
+      },
+      "overall_pass": true
+    },
+    {
+      "id": "TC-003",
+      "scores": {
+        "AnswerRelevancyMetric": 1.0,
+        "FaithfulnessMetric": 0.5,
+        "HallucinationMetric": 1.0
+      },
+      "passed": {
+        "AnswerRelevancyMetric": true,
+        "FaithfulnessMetric": false,
+        "HallucinationMetric": false
+      },
+      "overall_pass": false
+    }
+  ]
+}

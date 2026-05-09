@@ -1,0 +1,32 @@
+[
+  {
+    "id": "TC-001",
+    "input": "What are the symptoms of diabetes?",
+    "actual_output": "Common symptoms include frequent urination, excessive thirst, unexplained weight loss, and blurred vision.",
+    "expected_output": "Symptoms include frequent urination, increased thirst, weight loss, and blurred vision.",
+    "context": [
+      "Type 2 diabetes symptoms include polyuria, polydipsia, and fatigue.",
+      "Blurred vision and unexplained weight loss are early signs of diabetes."
+    ]
+  },
+  {
+    "id": "TC-002",
+    "input": "What is the standard timeframe to resolve a credit card dispute?",
+    "actual_output": "Credit card disputes are typically resolved within 30 to 45 business days.",
+    "expected_output": "Most disputes resolve within 30 to 45 business days.",
+    "context": [
+      "Visa and Mastercard chargeback timelines generally run 30\u201345 business days.",
+      "Complex fraud cases may take longer depending on the card network."
+    ]
+  },
+  {
+    "id": "TC-003",
+    "input": "What is the capital of Australia?",
+    "actual_output": "The capital of Australia is Sydney, which is also its largest city.",
+    "expected_output": "The capital of Australia is Canberra.",
+    "context": [
+      "Canberra is the capital city of Australia, chosen as a compromise between Sydney and Melbourne.",
+      "Sydney is the largest city in Australia but is not the capital."
+    ]
+  }
+]
